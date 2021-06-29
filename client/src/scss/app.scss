@@ -1,0 +1,19 @@
+@import './components/auth.scss';
+@import './components/room-search.scss';
+@import './components/room.scss';
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}

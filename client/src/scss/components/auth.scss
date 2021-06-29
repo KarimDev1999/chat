@@ -1,0 +1,42 @@
+@import '../components/../variables.scss';
+
+.form {
+    form {
+        display: flex;
+        flex-direction: column;
+        min-height: 300px;
+        width: 250px;
+        background-color: rgba($primary-color, .8);
+        padding: 15px;
+        border-radius: 5px;
+        color: #fff;
+        label {
+            
+            font-weight: bold;
+            font-size: 22px;
+        }
+        input[type='text'] {
+            border: none;
+            margin: 20px 0px;
+            padding: 10px;
+        }
+        input[type='submit'] {
+            margin: auto auto 0 auto;
+            background-color: transparent;
+            border: 1px solid #fff;
+            width: 150px;
+            padding: 10px 0px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #fff;
+            &:hover {
+                background-color: #fff;
+                color: #000;
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+}
